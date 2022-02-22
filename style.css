@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}  
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    
+}
+.half-weight{
+    width: 50%;
+    
+}
+.half-weight img{
+    width: 50%;
+    margin-left:50px;
+}
+
+.half-weight h1 span{
+    color: chocolate;
+}
+.half-weight h1{
+    font-size:50px;
+    border-left:  7px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice: 1;
+    gap: 5px;;
+}
+.anchor-btn{
+   text-decoration: none;
+   background-image: linear-gradient(orange,tomato);
+   padding: 10px 40px;
+   border-radius:5px;
+   color: white;
+   font-weight:700;
+  
+}
+.text-div{
+    margin-top:35px;
+   
+}
+.section-title{
+    text-align: center;
+    font-size:40px;
+}
+.section-title span{
+    color: tomato;
+}
+.about-mission-div{
+    display: flex;
+    justify-content:space-between;
+    margin: 20px;
+    padding: 10px
+}
+.mission{
+    width: 50%;
+    text-align: center;
+    margin:10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:  20px;
+  
+
+}
+.mission-back{
+    background-color:lightblue;
+  
+}
+.vission-back{
+    background-color: rgb(54, 169, 173);
+}
+.goal-back{
+    background-color:indigo;
+}
+.mission img{
+   width: 50%;
+}
+.half-weight h2{
+    color: darkmagenta;
+}
+.top-banner{
+    background-image: url(images/person/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Gobal-banner{
+    margin-top:50px;
+}
+.skill-div{
+    margin-top:20px;
+    padding:20px;
+}
+.skill-text{
+    text-align: center;
+    color:orange;
+    font-size:40px;
+}
+.experience h3{
+    font-size:30px;
+    color: crimson;
+}
+.experience ul li{
+   font-size:20px;
+   color: indigo;
+   gap: 10px;
+   padding: 10px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color:black;
+    margin:20px;
+    padding:20px;
+}
